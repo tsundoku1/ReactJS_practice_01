@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 1.8rem;
+    box-sizing: border-box;
+}
+a:link,
+a:visited,
+a:active {
+    color: ;
+    text-decoration: none;
+}
+header,form{
+	margin:20px auto;
+	width:800px;	
+}
+form label{
+	vertical-align: middle;     		   		
+}
+form input {
+	width:50px;
+	height:35px;
+	vertical-align: middle;
+	margin:20px;
+	background-color: #FFFFFF;
+}
+form button {
+	width:120px;
+	height:35px;    		
+	vertical-align: middle;	
+	margin:20px 20px 20px 10px;
+	font-size: 2rem; 					
+}
+#photo{
+	position: absolute;
+	content: url("shoe.png");				
+	width:800px;
+	height:450px;
+	background-size: contain;
+	margin-left:-400px;
+	left:50%;
+}
